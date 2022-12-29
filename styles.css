@@ -11473,48 +11473,21 @@ transition: 0.5s;
   color: #fff;
 }
 
-
-/* Demo backgrounds and styling*/
-
-.colour-1 {
-  background: #483C46;
-  color: #fff;
+.social-icons a{
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 23px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
 }
 
-.colour-2 {
-  background: #3C6E71;
+.social-icons a:hover{
+  color: #ff004f;
+  transform: translate(-5px);
 }
 
-.colour-3 {
-  background: #70AE6E;
-}
 
-.colour-4 {
-  background: #82204A;
-}
-
-.colour-5 {
-  background: #558C8C;
-}
-
-.colour-6 {
-  background: #917C78;
-}
-
-body {
-  padding: 20px 0;
-  font-family: Roboto, sans-serif;
-}
-
-.content h3 {
-  margin-top: 0px;
-  font-weight: 300;
-}
-
-h1 {
-  font-weight: 300;
-  margin-bottom: 40px;
-}
 /**Awards Section **/
 
 @media (max-width: 768px) {
@@ -11586,7 +11559,6 @@ h1 {
 
 .award-titles{
   display: flex;
-  margi-bottom: 30px;
   transition: 0.5s;
   overflow: scroll;
 }
